@@ -162,7 +162,7 @@ table textarea {
     background-color: var(--themeColor);
     border-radius: 4px;
     box-shadow: rgba(0, 111, 192, 0.3) 0px 1px 2px 0px, rgba(0, 111, 192, 0.15) 0px 2px 6px 2px;
-    color: #36395a;
+    color: #000000;
     cursor: pointer;
     display: flex;
     padding: 5px 10px;

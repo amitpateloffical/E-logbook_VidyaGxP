@@ -17,7 +17,7 @@ function HeaderBottom() {
       <div className="input-wrapper w-full">
           <div className="group-input-2">
             <div className="text-2xl font-extrabold">ELog</div>
-            <select 
+            <select className=""
               value={eLogSelect}
               onChange={(e) => setELogSelect(e.target.value)}
             >

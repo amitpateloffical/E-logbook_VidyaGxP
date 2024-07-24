@@ -141,9 +141,7 @@ tr:nth-child(2n) textarea {
   display: block;
   width: 100%;
   background: white;
-  border: 2px solid grey;
-  height: 35px;
-  box-shadow: inset 0px 1px 8px rgba(0, 0, 0, 0.2);
+  border-left: 1px solid grey;
 }
 
 /*! ===================================================================== */

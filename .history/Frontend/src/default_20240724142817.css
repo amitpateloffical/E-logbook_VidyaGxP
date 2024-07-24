@@ -122,7 +122,7 @@ textarea:focus-visible {
 .group-input-2 {
     display: grid;
     grid-template-columns: 100px 1fr;
-    /* border-bottom: 1px solid #808080; */
+    border-bottom: 1px solid #808080;
     overflow: hidden;
     background: white;
     align-items: start;

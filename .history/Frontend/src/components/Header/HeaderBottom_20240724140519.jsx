@@ -14,10 +14,10 @@ function HeaderBottom() {
     <>
       <div className="Header_Bottom">
       <div className="headerBottomInner">
-      <div className="input-wrapper w-full">
+      <div className="input-wrapper">
           <div className="group-input-2">
-            <div className="text-2xl font-extrabold">ELog</div>
-            <select 
+            <div className="">ELog</div>
+            <select
               value={eLogSelect}
               onChange={(e) => setELogSelect(e.target.value)}
             >
