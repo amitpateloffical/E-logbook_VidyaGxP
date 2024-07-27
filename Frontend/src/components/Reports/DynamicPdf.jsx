@@ -360,7 +360,7 @@ const styles = StyleSheet.create({
   tableHeaderCol: {
     width: "200px",
     borderStyle: "solid",
-    backgroundColor: "#3383FF",
+    backgroundColor: "#32cfe1",
     color: "white",
     borderWidth: 1,
     borderLeftWidth: 0,

@@ -457,13 +457,13 @@ export default function DPRpanel() {
     <>
       <HeaderTop />
       <div id="main-form-container">
-        <div id="config-form-document-page">
-          <div className="top-block">
+        <div id="config-form-document-pages">
+          <div className="top-blocks">
             <div>
-              <strong> Record Name:&nbsp;</strong>Differential Pressure
+              <strong> Record Name:&nbsp;&nbsp;</strong>Differential Pressure
             </div>
             <div>
-              <strong> Site:&nbsp;</strong>
+              <strong> Site:&nbsp;&nbsp;</strong>
               {location.state?.site_id === 1
                 ? "India"
                 : location.state?.site_id === 2
@@ -473,11 +473,11 @@ export default function DPRpanel() {
                 : "EU"}
             </div>
             <div>
-              <strong> Current Status:&nbsp;</strong>
+              <strong> Current Status:&nbsp;&nbsp;</strong>
               {location.state?.status}
             </div>
             <div>
-              <strong> Initiated By:&nbsp;</strong>
+              <strong> Initiated By:&nbsp;&nbsp;</strong>
               {location.state?.initiator_name}
             </div>
           </div>
@@ -707,7 +707,7 @@ export default function DPRpanel() {
                   <div className="group-input">
                     <label className="color-label">Department</label>
 
-                    <div className="instruction">&nbsp;</div>
+                    {/* <div className="instruction">&nbsp;</div> */}
                     <select
                       className="form-control"
                       name="department"
@@ -751,7 +751,7 @@ export default function DPRpanel() {
                       Compression Area with respect to Corridor
                     </label>
 
-                    <div className="instruction">&nbsp;</div>
+                    {/* <div className="instruction">&nbsp;</div> */}
                     <select
                       className="form-control"
                       name="compression_area"

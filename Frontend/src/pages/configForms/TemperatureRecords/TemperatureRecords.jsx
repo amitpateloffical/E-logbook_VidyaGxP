@@ -1,6 +1,7 @@
 import { useEffect, useReducer, useState } from "react";
 import HeaderTop from "../../../components/Header/HeaderTop";
 import "../ConfigForms.css";
+import "../DiffrentialPressureRecord/DiffrentialPressure.css";
 import DeleteIcon from "@mui/icons-material/Delete";
 import { useLocation, useNavigate } from "react-router-dom";
 import { toast } from "react-toastify";
@@ -238,20 +239,20 @@ export default function TemperatureRecords() {
     <>
       <HeaderTop />
       <div id="main-form-container">
-        <div id="config-form-document-page">
-          <div className="top-block">
+        <div id="config-form-document-pages">
+          <div className="top-blocks">
             <div>
-              <strong> Record Name:&nbsp;</strong>Temperature Records
+              <strong> Record Name:&nbsp;&nbsp;</strong>Temperature Records
             </div>
             <div>
-              <strong> Site:&nbsp;</strong>
+              <strong> Site:&nbsp;&nbsp;</strong>
               {location.state?.site}
             </div>
             <div>
-              <strong> Current Status:&nbsp;</strong>Under Initiation
+              <strong> Current Status:&nbsp;&nbsp;</strong>Under Initiation
             </div>
             <div>
-              <strong> Initiated By:&nbsp;</strong>
+              <strong> Initiated By:&nbsp;&nbsp;</strong>
               {User?.name}
             </div>
           </div>

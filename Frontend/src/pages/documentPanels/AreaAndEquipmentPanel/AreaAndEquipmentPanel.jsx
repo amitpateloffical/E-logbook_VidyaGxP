@@ -1,5 +1,6 @@
 import { useEffect, useReducer, useState } from "react";
 import HeaderTop from "../../../components/Header/HeaderTop";
+import "../docPanel.css";
 import { toast } from "react-toastify";
 import { useNavigate } from "react-router-dom";
 import { useDispatch, useSelector } from "react-redux";
@@ -91,20 +92,20 @@ export default function AreaAndEquipmentPanel() {
     <>
       <HeaderTop />
       <div id="main-form-container">
-        <div id="config-form-document-page">
-          <div className="top-block">
+        <div id="config-form-document-pages">
+          <div className="top-blocks">
             <div>
-              <strong> Record Name:&nbsp;</strong>Document
+              <strong> Record Name:&nbsp;&nbsp;</strong>Document
             </div>
             <div>
-              <strong> Site:&nbsp;</strong>
+              <strong> Site:&nbsp;&nbsp;</strong>
               India
             </div>
             <div>
-              <strong> Current Status:&nbsp;</strong>Under Initiation
+              <strong> Current Status:&nbsp;&nbsp;</strong>Under Initiation
             </div>
             <div>
-              <strong> Initiated By:&nbsp;</strong>
+              <strong> Initiated By:&nbsp;&nbsp;</strong>
               Amit Guru
             </div>
           </div>

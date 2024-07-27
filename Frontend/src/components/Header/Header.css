@@ -90,7 +90,7 @@ tr:nth-child(2n) textarea {
 }
 
 .group-input label.color-label {
-  background: #80808045;
+  /* background: #80808045; */
   padding: 7px 15px;
 }
 
@@ -154,7 +154,7 @@ tr:nth-child(2n) textarea {
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
-  background-color: var(--themeColor);
+  background-color: #32cfe1;
   border-radius: 4px;
   border-width: 0;
   box-shadow: rgba(45, 35, 66, 0.2) 0 2px 4px,

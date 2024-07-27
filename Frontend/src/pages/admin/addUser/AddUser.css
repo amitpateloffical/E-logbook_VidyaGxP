@@ -2,7 +2,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 20px;
+    padding: 30px 20px 10px 20px;
   }
   
   #config-form-document-page {
@@ -59,7 +59,7 @@
     padding: 10px;
     border: none;
     border-radius: 5px;
-    background-color: #35dcef;
+    background-color: #32cfe1;
     color: white;
     cursor: pointer;
     font-size: 16px;
@@ -69,7 +69,7 @@
   }
   
   .submit-button:hover {
-    background-color: var(--themeColor)
+    background-color: #32cfe1;
   }
   
   @media (max-width: 600px) {

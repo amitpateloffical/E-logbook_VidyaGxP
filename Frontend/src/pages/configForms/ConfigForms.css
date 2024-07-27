@@ -9,7 +9,7 @@
 }
 
 #main-form-container .aside-container .head {
-  background: var(--themeColor);
+  background:#32cfe1;
   color: white;
   font-size: 1.4rem;
   text-align: center;
@@ -85,7 +85,7 @@
 }
 
 #main-form-container .sticky-buttons div {
-  background: var(--themeColor);
+  background: #32cfe1;
   width: 40px;
   height: 40px;
   display: grid;
@@ -93,41 +93,42 @@
   border-radius: 0 5px 5px 0;
 }
 
-#config-form-document-page {
+#config-form-document-pages {
   padding: 0 0 76px;
+  width: 100%;
   /* border-left: 1px solid #808080; */
 }
 
-#config-form-document-page .top-block {
-  background: var(--themeColor);
+#config-form-document-pages .top-blocks {
+  background: #32cfe1;
   color: white;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
 }
 
-#config-form-document-page .top-block div {
+#config-form-document-pages .top-blocks div {
   padding: 10px 20px;
   border-right: 1px dashed #ffffff;
-  font-size: 0.9rem;
+  font-size:1rem;
 }
 
-#config-form-document-page .top-block div:nth-last-child(1) {
+#config-form-document-page .top-blocks div:nth-last-child(1) {
   border-right: 0;
 }
 
-#config-form-document-page .state-bar {
+#config-form-document-pages .state-bar {
   display: flex;
   font-size: 0.85rem;
   gap: 20px;
 }
 
-#config-form-document-page .document-block {
+#config-form-document-pages .document-block {
   padding: 20px;
   display: grid;
   gap: 20px;
 }
 
-#config-form-document-page .document-tabs {
+#config-form-document-pages .document-tabs {
   display: flex;
   align-items: center;
   gap: 20px;
@@ -135,7 +136,7 @@
   order: 2;
 }
 
-#config-form-document-page .document-tabs div {
+#config-form-document-pages .document-tabs div {
   padding: 7px 15px;
   border-radius: 35px;
   font-weight: bold;
@@ -143,13 +144,13 @@
   cursor: pointer;
 }
 
-#config-form-document-page .document-tabs div.active {
-  background: var(--themeColor);
+#config-form-document-pages .document-tabs div.active {
+  background: #32cfe1;
   color: white;
   font-weight: 400;
 }
 
-#config-form-document-page .document-form {
+#config-form-document-pages .document-form {
   padding: 15px;
   border-radius: 5px;
   order: 3;
@@ -159,14 +160,14 @@
 }
 
 .dual-grid,
-#config-form-document-page .document-form .form-flex {
+#config-form-document-pages .document-form .form-flex {
   display: grid;
   grid-template-columns: 1fr 1fr;
   align-items: start;
   gap: 0 20px;
 }
 
-#config-form-document-page .document-form .sop-type-header {
+#config-form-document-pages .document-form .sop-type-header {
   display: grid;
   grid-template-columns: 135px 1fr;
   border: 2px solid #000000;
@@ -174,14 +175,14 @@
   padding: 1.5%;
 }
 
-#config-form-document-page .document-form .sop-type-header .main-head {
+#config-form-document-pages .document-form .sop-type-header .main-head {
   display: grid;
   place-items: center;
   align-content: center;
   font-size: 1.2rem;
 }
 
-#config-form-document-page
+#config-form-document-pages
   .document-form
   .sop-type-header
   .main-head
@@ -190,8 +191,8 @@
   font-size: 1.7rem;
 }
 
-#config-form-document-page .button-block {
-  padding: 19px 20px;
+#config-form-document-pages .button-block {
+  padding: 8px 20px;
   background: white;
   display: flex;
   justify-content: flex-end;
@@ -206,7 +207,7 @@
   box-shadow: rgba(33, 35, 38, 0.1) 0px 10px 10px 10px;
 }
 
-#config-form-document-page .details-form-data .sub-head {
+#config-form-document-pages .details-form-data .sub-head {
   color: #101010;
   /* border-bottom: 2px solid #0d0d0d; */
   padding-bottom: 5px;
@@ -215,16 +216,17 @@
   font-size: 1.2rem;
 }
 
-#config-form-document-page .details-form-data .sub-head-2 {
+#config-form-document-pages .details-form-data .sub-head-2 {
   text-align: center;
-  background: #35dcef;
+  background: #32cfe1;
+;
   padding: 10px 20px;
   font-size: 1.5rem;
   color: #ffffff;
   border-radius: 40px;
 }
 
-#config-form-document-page .group-input .file-attachment-field {
+#config-form-document-pages .group-input .file-attachment-field {
   display: grid;
   grid-template-columns: 1fr 150px;
   align-items: start;
@@ -232,11 +234,11 @@
   margin-bottom: 20px;
 }
 
-#config-form-document-page .group-input .file-attachment-field input {
+#config-form-document-pages .group-input .file-attachment-field input {
   margin: 0;
 }
 
-#config-form-document-page
+#config-form-document-pages
   .group-input
   .file-attachment-field
   .file-attachment-list {
@@ -250,7 +252,7 @@
   gap: 20px;
 }
 
-#config-form-document-page
+#config-form-document-pages
   .group-input
   .file-attachment-field
   .file-attachment-list
@@ -258,7 +260,7 @@
   font-size: 0.9rem;
 }
 
-#config-form-document-page
+#config-form-document-pages
   .group-input
   .file-attachment-field
   .file-attachment-list
@@ -269,19 +271,19 @@
   text-decoration: underline;
 }
 
-#config-form-document-page .group-input .file-attachment-field .add-btn {
+#config-form-document-pages .group-input .file-attachment-field .add-btn {
   position: relative;
 }
 
-#config-form-document-page .group-input .file-attachment-field .add-btn div {
-  background: #35dcef;
+#config-form-document-pages .group-input .file-attachment-field .add-btn div {
+  background:  #32cfe1;
   color: white;
   border-radius: 5px;
   text-align: center;
   padding: 5px;
 }
 
-#config-form-document-page .group-input .file-attachment-field .add-btn input {
+#config-form-document-pages .group-input .file-attachment-field .add-btn input {
   position: absolute;
   top: 0;
   left: 0;
@@ -290,43 +292,43 @@
   opacity: 0;
 }
 
-#config-form-document-page .group-input table input,
-#config-form-document-page .group-input table select,
-#config-form-document-page .group-input table textarea {
+#config-form-document-pages .group-input table input,
+#config-form-document-pages .group-input table select,
+#config-form-document-pages .group-input table textarea {
   border: 0;
   padding: 0;
   margin: 0;
   border-radius: 0;
 }
 
-#config-form-document-page .form-flex-three {
+#config-form-document-pages .form-flex-three {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   gap: 15px;
 }
 
-#config-form-document-page #add-keyword {
+#config-form-document-pages #add-keyword {
   display: flex;
   gap: 20px;
 }
 
-#config-form-document-page .document-block .option-grid > div {
+#config-form-document-pages .document-block .option-grid > div {
   display: grid;
   grid-template-columns: 1fr 15px 20px;
   gap: 20px;
   margin-bottom: 10px;
 }
 
-#config-form-document-page .group-input #icon-flex {
+#config-form-document-pages .group-input #icon-flex {
   display: flex;
   gap: 5px;
 }
 
-#config-form-document-page .details-form-data .text-Annexure {
+#config-form-document-pages .details-form-data .text-Annexure {
   padding: 10px;
 }
 
-#config-form-document-page .activity-log-field {
+#config-form-document-pages .activity-log-field {
   margin-bottom: 20px;
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -334,19 +336,19 @@
   font-size: 0.85rem;
 }
 
-#config-form-document-page .activity-log-field:nth-child(2n) {
+#config-form-document-pages .activity-log-field:nth-child(2n) {
   background: #006fc00f;
 }
 
-#config-form-document-page .activity-log-field div {
+#config-form-document-pages .activity-log-field div {
   padding: 7px 15px;
 }
 
-#config-form-document-page .activity-log-field div:nth-child(1) {
+#config-form-document-pages .activity-log-field div:nth-child(1) {
   border-right: 1px dashed #808080;
 }
 
-#config-form-document-page .activity-log-field:nth-last-child(1) {
+#config-form-document-pages .activity-log-field:nth-last-child(1) {
   margin-bottom: 0;
 }
 
@@ -359,6 +361,9 @@
 
 .radio-btn {
   display: column;
+  display: flex;
+  justify-content: space-between;
+  
 }
 
 .Actions {
@@ -504,7 +509,7 @@ tr th {
 
 .btn-print {
   padding: 5%;
-  background-color: #35dcef;
+  background-color:  #32cfe1;
   border-radius: 50px;
   cursor: pointer;
   color: white;
@@ -532,6 +537,7 @@ tr th {
   justify-content: center;
   align-items: center;
   margin-top: 20px;
+  margin-bottom: 15px;
 }
 
 .btn-forms {
@@ -540,7 +546,7 @@ tr th {
 
 
 .btn-forms-isSelecteds {
-  background-color: #35dcef;
+  background-color: #32cfe1;
   color: white;
   padding: 10px;
   margin: 0 5px;

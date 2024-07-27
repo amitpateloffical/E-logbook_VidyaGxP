@@ -102,7 +102,7 @@ label.color-label {
   height: 10px;
   left: calc(50% - 1px);
   width: 2px;
-  background: #393cd4;
+  background: #32cfe1;
 }
 
 .fishbone-ishikawa-structure .fields.top-field div::after {
@@ -115,7 +115,7 @@ label.color-label {
 
 .fishbone-ishikawa-structure .mid {
   height: 2px;
-  background: #393cd4;
+  background: #32cfe1;
   margin-bottom: 10px;
   position: relative;
 }
@@ -128,7 +128,7 @@ label.color-label {
   bottom: 0;
   width: 30px;
   left: 100%;
-  background: #393cd4;
+  background: #32cfe1;
 }
 
 .fishbone-ishikawa-structure .problem-block {

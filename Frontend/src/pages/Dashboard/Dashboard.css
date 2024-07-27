@@ -30,7 +30,7 @@
     color: #fff;
     border-radius: 10px;
     font-size: 15px;
-    background-color: var(--themeColor);
+    background-color: #32cfe1;
   }
   .pagination {
     display: flex;

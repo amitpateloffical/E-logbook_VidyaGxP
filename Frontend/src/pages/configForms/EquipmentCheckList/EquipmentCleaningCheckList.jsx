@@ -1,6 +1,7 @@
 import { useReducer, useState, useEffect } from "react";
 import HeaderTop from "../../../components/Header/HeaderTop";
 import "../ConfigForms.css";
+import "../DiffrentialPressureRecord/DiffrentialPressure.css";
 import DeleteIcon from "@mui/icons-material/Delete";
 import EditIcon from "@mui/icons-material/Edit";
 import SaveAltIcon from "@mui/icons-material/SaveAlt";
@@ -183,20 +184,20 @@ export default function EquipmentCleaningCheckList() {
     <>
       <HeaderTop />
       <div id="main-form-container">
-        <div id="config-form-document-page">
-          <div className="top-block">
+        <div id="config-form-document-pages">
+          <div className="top-blocks">
             <div>
-              <strong> Record Name:&nbsp;</strong>Document
+              <strong> Record Name:&nbsp;&nbsp;</strong>Document
             </div>
             <div>
-              <strong> Site:&nbsp;</strong>
+              <strong> Site:&nbsp;&nbsp;</strong>
               India
             </div>
             <div>
-              <strong> Current Status:&nbsp;</strong>Under Initiation
+              <strong> Current Status:&nbsp;&nbsp;</strong>Under Initiation
             </div>
             <div>
-              <strong> Initiated By:&nbsp;</strong>
+              <strong> Initiated By:&nbsp;&nbsp;</strong>
               Amit Guru
             </div>
           </div>
@@ -212,7 +213,7 @@ export default function EquipmentCleaningCheckList() {
                 </div>
               </div> */}
               <div className="sub-head-2">Equipment Cleaning CheckList</div>
-              <div className="btn-forms">
+              <div className="btn-forms pt-4">
                 <div
                   className={`${
                     isSelectedGeneral === true
@@ -370,7 +371,8 @@ export default function EquipmentCleaningCheckList() {
                               <td>{item.description}</td>
                               <td>
                                 <div className="radio-btn">
-                                  <input
+                                <label>OK</label>
+                                  <input className="w-4"
                                     type="radio"
                                     id={`ok${index}`}
                                     name={`observation${index}`}
@@ -384,10 +386,11 @@ export default function EquipmentCleaningCheckList() {
                                       )
                                     }
                                   />
-                                  <label>OK</label>
+                                  
                                 </div>
-                                <div>
-                                  <input
+                                <div className="radio-btn">
+                                <label>Not ok</label>
+                                  <input className="w-4"
                                     type="radio"
                                     id={`no${index}`}
                                     name={`observation${index}`}
@@ -401,7 +404,7 @@ export default function EquipmentCleaningCheckList() {
                                       )
                                     }
                                   />
-                                  <label>Not ok</label>
+                                  
                                 </div>
                               </td>
                               <td>
@@ -438,7 +441,7 @@ export default function EquipmentCleaningCheckList() {
                                   }
                                 />
                               </td>
-                              <td className="Actions">
+                              <td className="Actions pt-5">
                                 <Tooltip title="Delete">
                                   <DeleteIcon
                                     onClick={() =>

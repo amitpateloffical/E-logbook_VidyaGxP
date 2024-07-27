@@ -72,7 +72,7 @@
     height: 100%;
     width: 10%;
     border-radius: 5px 0px 0px 5px;
-    border-right: 1px #35dcef dashed;
+    border-right: 1px #32cfe1 dashed;
   }
   
   .Header_Top .header_inner .center .inputContainer .inputInnerLeft:hover {
@@ -103,7 +103,7 @@
     height: 100%;
     border: none;
     border-radius: 0px 50px 50px 0px;
-    background: #35dcef;
+    background: #32cfe1;
     color: white;
     font-weight: 900;
     cursor: pointer;
@@ -151,7 +151,7 @@
   .Header_Top .header_inner .right .bellLeft i {
     font-size: 20px;
     font-weight: 900;
-    color:var(--themeColor);
+    color:#32cfe1;
   }
   
   .Header_Top .header_inner .right .profileRight {
@@ -178,7 +178,7 @@
   }
   
   .drop-container .drop-btn {
-    color: #35dcef;
+    color: #32cfe1;
     text-align: center;
     border-radius: 50%;
     height: 40px;
@@ -208,7 +208,7 @@
     border-radius: 55px;
     align-items: center;
     justify-content: center;
-    background: #35dcef;
+    background: #32cfe1;
     color: white;
     background-image: url("amit_guru.jpg");
   }
@@ -259,7 +259,7 @@
   
   .drop-container .drop-list .drop-item:hover {
     background: #118dec36;
-    color: #35dcef;
+    color: #32cfe1;
   }
   
   .drop-container:hover .drop-list {
@@ -283,7 +283,7 @@
   border: none; /* Remove the outer border */
 }
 .bg-black  {
-  background-color: var(--themeColor); /* Add your desired color here */
+  background-color: #32cfe1; /* Add your desired color here */
   color: rgb(18, 18, 18); /* Optional: change text color if needed */
 }
 .modern-table , .modern-table td {
@@ -299,7 +299,7 @@
   text-transform: uppercase;
   padding: 6px;
   font-size: 17px;
-  background-color: var(--themeColor);
+  background-color: #32cfe1;
 
 }
 
@@ -330,7 +330,7 @@ td
 th {
   
   border: 1px solid #7e7d7d;
-  background-color: var(--themeColor);
+  background-color: #32cfe1;
   color: rgb(25, 24, 24);
   border-collapse: collapse;
   text-align: left;

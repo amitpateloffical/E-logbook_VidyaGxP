@@ -119,7 +119,7 @@ function AdminDashboard() {
                 <button
                   className="themeBtn"
                   style={{
-                    backgroundColor: "#35dcef",
+                    backgroundColor: "#32cfe1",
                     color: "white",
                     padding: "10px 20px",
                     borderRadius: "5px",
@@ -331,11 +331,11 @@ function AdminDashboard() {
                 padding: "10px 20px",
                 borderRadius: "5px",
                 border: "1px solid #42e9ff",
-                color: "black",
+                color: "white",
                 cursor: "pointer",
                 fontWeight: "bold",
                 marginRight: "10px",
-                background: "#42e9ff",
+                background: "#32cfe1",
               }}
             >
               Confirm
@@ -345,11 +345,11 @@ function AdminDashboard() {
               style={{
                 padding: "10px 20px",
                 borderRadius: "5px",
-                border: "1px solid #42e9ff",
+                border: "1px solid #32cfe1",
                 fontWeight: "bold",
                 color: "white",
                 cursor: "pointer",
-                background: "#35decf",
+                background: "#32cfe1",
               }}
             >
               Cancel
@@ -397,7 +397,7 @@ function AdminDashboard() {
                         padding: "10px",
                         borderBottom: "1px solid #ddd",
                         textAlign: "center",
-                        backgroundColor: "#42e9ff",
+                        backgroundColor: "#32cfe1",
                         fontSize: "19px",
                         fontWeight: "bold",
                       }}
@@ -432,7 +432,7 @@ function AdminDashboard() {
                 padding: "10px 20px",
                 borderRadius: "5px",
                 border: "1px solid #42e9ff",
-                backgroundColor: "#35dcef",
+                backgroundColor: "#32cfe1",
                 color: "white",
                 cursor: "pointer",
                 fontWeight: "bold",
