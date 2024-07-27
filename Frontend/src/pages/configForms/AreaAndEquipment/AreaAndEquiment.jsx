@@ -93,7 +93,7 @@ export default function AreaAndEquiment() {
                 </div>
               </div> */}
               <div className="sub-head-2">Area and Equipment Usage Log</div>
-              <div className="btn-forms pt-5">
+              <div className="btn-forms pt-4">
                 <div
                   className={`${
                     isSelectedGeneral === true

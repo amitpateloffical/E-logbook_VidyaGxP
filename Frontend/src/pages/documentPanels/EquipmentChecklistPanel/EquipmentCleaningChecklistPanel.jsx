@@ -221,14 +221,14 @@ export default function EquipmentCleaningCheckListPanel() {
 
           <div className="document-form">
             <div className="details-form-data">
-              <div className="sop-type-header">
+              {/* <div className="sop-type-header">
                 <div className="logo">
                   <img src="/vidyalogo2.png" alt="..." />
                 </div>
                 <div className="main-head">
                   <div>VidyaGxp </div>
                 </div>
-              </div>
+              </div> */}
               <div className="sub-head-2">Equipment Cleaning CheckList</div>
               <div className="outerDiv5">
                 <div className="btn-forms">
